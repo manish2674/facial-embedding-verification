@@ -1,2 +1,14 @@
-# facial-embedding-verification
-A Python-based face recognition and verification pipeline using OpenCV, pretrained facial embeddings, webcam capture, and Euclidean distance comparison to verify facial similarity between an ID image and a live face.
+# Student ID Verification using Face Recognition
+
+##  Project Overview
+This project implements a **Student ID Verification System** using Python and the `face_recognition` library.  
+The goal is to verify whether the person presenting a **live face capture** matches the **face on their ID card**.
+
+The workflow:
+1. **Extract face from ID card image** (face cropping).
+2. **Generate face embeddings** for ID face and live captured face.
+3. **Compare embeddings** to calculate similarity (Euclidean distance).
+4. **Decision**: Match ✅ or Not Match ❌.
+
+---
+
