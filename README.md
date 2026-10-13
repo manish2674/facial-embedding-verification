@@ -10,5 +10,5 @@ The workflow:
 3. **Compare embeddings** to calculate similarity (Euclidean distance).
 4. **Decision**: Match ✅ or Not Match ❌.
 
----
+____
 
