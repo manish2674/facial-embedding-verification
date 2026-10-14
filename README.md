@@ -8,7 +8,7 @@ The workflow:
 1. **Extract face from ID card image** (face cropping).
 2. **Generate face embeddings** for ID face and live captured face.
 3. **Compare embeddings** to calculate similarity (Euclidean distance).
-4. **Decision**: Match ✅ or Not Match ❌.
+4. **Decision**: Match ✅ or Not Match ❌
 
 ____
 
