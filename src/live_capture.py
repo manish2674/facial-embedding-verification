@@ -2,7 +2,6 @@ import cv2
 import face_recognition
 import numpy as np
 import os
-import pandas as pd 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIVE_DIR = os.path.join(BASE_DIR, "data", "live_faces")
