@@ -7,7 +7,7 @@ import face_recognition
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EMBEDDINGS_INPUT_PATH = os.path.join(BASE_DIR, "data", "embeddings")   # cropped faces
-MODEL_OUTPUT_PATH = os.path.join(BASE_DIR, "models")                   # store .npy embeddings
+MODEL_OUTPUT_PATH = os.path.join(BASE_DIR, "models")                   # store.npy embeddings
 
 os.makedirs(MODEL_OUTPUT_PATH, exist_ok=True)
 
