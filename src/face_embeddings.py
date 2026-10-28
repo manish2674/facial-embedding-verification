@@ -3,6 +3,7 @@
 import os
 import numpy as np
 import face_recognition
+import pandas as pd 
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
