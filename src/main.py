@@ -1,6 +1,7 @@
 import os
 import cv2
 import numpy as np
+import pandas as pd 
 import face_recognition
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
