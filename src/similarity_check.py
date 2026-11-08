@@ -12,7 +12,7 @@ def load_embedding(file_name):
     return np.load(path)
 
 def compare_faces(id_embedding_file, live_embedding_file, threshold=0.6):
-    # Load embeddings
+    # Load Embeddings
     id_embedding = load_embedding(id_embedding_file)
     live_embedding = load_embedding(live_embedding_file)
 
