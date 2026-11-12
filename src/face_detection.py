@@ -1,5 +1,6 @@
 import cv2
 import os
+import pandas as pd 
 import numpy as np 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
