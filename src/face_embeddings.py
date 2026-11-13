@@ -2,7 +2,6 @@
 
 import os
 import numpy as np
-import pandas as pd 
 import face_recognition
 import pandas as pd 
 
